@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>CGS1820 || Module 2: Introduction to Coding Web Pages</title>
+	<link rel="stylesheet" href="cgs1820.css" type="text/css">
+</head>
+<body>
+<table width="750" align="center">
+<tr><td><h2>Module 2 - Introduction to Coding, Testing, and Validating</h2>  </td></tr>
+  <tr>
+    <td > 
+      <p>In Module 2 you will code simple web pages, test them in various browsers, and use the Validator through W3Schools to make sure
+      	your code is correct. You will also upload files to the ITE server and submit a URL that will link to your page. </p>
+      	
+      <h4>Install Filezilla</h4>
+      <p><span class = "strg">Filezilla</span> is simply a program that allows you to transfer files from your own computer
+      	to a server or download files from your account on a server back to your computer. It is called an FTP client
+      	because it uses a <strong>File Transfer Protocol (FTP)</strong> and makes transferring files both fast and efficient.
+      	<span class="strg">Please note:</span> You can't view the contents of your files with Filezilla. You can't edit files from inside
+      	Filezilla. All you do is upload and download files. Filezilla has some advanced features but, for this course, please
+      	simply use it as a method to transfer files. Do <strong>not</strong>, by the way, use Filezilla to help you create a URL;
+      	it won't work. Follow the instructions I will provide.</p>
+      <p>You can get Filezilla by simply Googling it. However, the textbook will walk you through this process. Go to Chapter 19
+      	in the book, pp. 642-647, and follow the instructions. Further instructions about your hostname, username, and password
+      	are given in the link (shown below)</p>
+     
+      <h4>Get your ITE server account</h4>	
+      	<p>Now you need to get to your account on the ITE server. Our IT administrator creates these accounts every semester. If, after
+      	following the <a href = "http://home.ite.sfcollege.edu/~elizabeth.drake/ite_serv_instr.htm">instructions here</a>, you cannot find your account, you should contact me by Canvas email and I will help you find
+      	your account or ensure that one is created.</p>
+      	
+      	
+      		
+      <h4>Important Notes </h4>
+      <p>Once you have installed Filezilla, entered the correct hostname, username, and password, you should see your account
+      	on the right side of the Filezilla screen and your computer's files on the left side.</p>
+      	<ul><li><span class = "strg">Never (never!)</span> delete the <span class="strg">public_html</span> folder! You must be 
+      		<strong>inside</strong> this folder to upload files you want to submit for grading. Any files uploaded outside
+      		this folder can only be seen by you; they are not live on the Internet.</li>
+      		<li>You will see a file called <span class="strg">index.html</span> in your public_html folder. It is simply a default
+   			test page. You can leave it there, overwrite it with your own content or delete it.</li>
+      		</ul>
+      		
+      		
+      <h3> Homework: Coding, Testing, Uploading, Creating a URL </h3>
+         <ul>
+         	<li>Read Chapter 2 in the <strong>text</strong>.</li> 
+        	<li>Complete, on your own and not for a grade: Exercises 2-1 and 2-2 from the end of Chapter 2 (pp. 18-20 in the Lab Manual).</li>
+        	<li>Complete Exercise 2-3 from the end of Chapter 2 (p. 21 in the Lab Manual). You will create two pages on your own computer:
+        		<strong>testpage.html</strong> and <strong>testpage.css</strong>. You will now upload both of these to your
+        		account on the ITE server and send me the URL so I can view and grade them. </li> 
+        	<li>Open Filezilla and, using the <a href ="http://home.ite.sfcollege.edu/~elizabeth.drake/ite_serv_instr.htm" >
+        		instructions here</a>, enter the hostname, your username, and your password. You should see your account
+        		on the right-hand side of the screen. <br>
+        		<span class="strg">*** Important Note! ***</span> Do not delete or rename the <strong>public_html</strong> folder! This 
+        		was created when your account was created. In order for your files to be seen on the Internet (and by your teacher
+        		for grading), they must be <span class="ital">inside</span> this folder. You can, if you wish, store files outside this folder but that is
+        		only your personal storage space and no one but you can view anything outside the public_html folder.
+<ul>
+  <li>Double-click to get inside the public_html folder. You will see a page named <strong>index.html</strong>.
+        			This is a default page that was created when your site was made. You can leave it there, delete it, write over
+        			it, as you wish.  </li>
+        			<li>Create a new folder inside public_html. Name this folder <span class="strg">cgs1820</span>. Now
+        				create a folder inside this new folder named <span class="strg">ch02</span>.</li>
+        			<li>On the left side of the Filezilla screen you should see the files and folders from your
+        					own computer. Navigate to wherever you saved the two files you created for Exercise 2-3:
+        					<strong>testpage.html</strong> and <strong>testpage.css</strong>.</li>
+        			<li>Upload these two files into the <span class="strg">ch02 folder on the remote side</span>. </li></ul></li>
+        	<li>Now create a URL to your <strong>testpage.html</strong>. In the beginning, you may want to write it on a piece of paper and then 
+        		type it into a browser or you can open up a new tab or window in a browser and type it in directly. The URL
+        		consists of the following parts:
+        		<ul>
+        			<li><span class="strg">http://</span> is the protocol.</li>
+        			<li><span class="strg">home.ite.sfcollege.edu/</span> is the domain.</li>
+        			<li><span class="strg">~your_username/cgs1820/ch02/</span> is the path. (Note that the 
+        				<span class="strg">tilde (~)</span> symbol is an important part of the URL.)</li>
+        			<li><span class="strg">testpage.html</span> is the filename.</li>
+        			</ul>
+        			For example, if my username is dotty.q.throckmeyer, my URL would be:<br>
+        			<strong>http://home.ite.sfcollege.edu/~dotty.q.throckmeyer/cgs1820/02/testpage.html</strong></li>
+        	<li>Next you <span class="strg">must (yes, must!)</span> test your URL in a browser. Enter it into the 
+        		address bar of a browser and make sure you see the page you created. If you don't see your page or
+        		if you get a File Not Found message, go back and double-check the URL. Check to make sure that
+        		you didn't misspell anything, that you didn't put in any spaces, that you didn't use uppercase
+        		letters when you needed lowercase, and so on. Repeat the process of creating and testing your
+        		URL until it works. <span class="strg">If you do not send me a working URL, no matter how wonderful your work is, 
+        		your grade will be a zero because I won't be able to see it!</span></li>
+        	<li>Finally, submit your assignment. Go to the <span class="strg">Assignment </span>tab in Canvas, find the <span class="strg">Drop Box</span> for this assignment, 
+        		and <span class="strg">copy the working URL you have created into that Drop Box</span>. That's all you need to submit.</li>
+      </ul>
+      <h3> A Little Extra Stuff </h3>
+      <li>While there is no requirement in this course for posting on a Discussion Board, you'll get brownie points (whatever
+      	they are) for contributing to discussions on the Discussion Board about the following:
+      	<ul><li>What does the tilde (~) in your URL mean?</li>
+      		<li>Your account has a default page named index.html. Why do you think this page was automatically created
+      			when your account was created?</li>
+      		<li>Try this: remove the filename <strong>testpage.html</strong> from your URL in a browser and see what 
+      			happens. Do you get an error? Why or why not?</li>
+      		<li>Your URL links to a page named testpage.html. So why did you need to upload the second file, 
+      			<strong>testpage.css</strong>, for your work to display properly? </li>
+      		<li>What if your teacher wanted to see your code for testpage.css? How could the teacher view it, 
+      			given the URL you submitted?</li>
+      	</ul></li>
+	  </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>

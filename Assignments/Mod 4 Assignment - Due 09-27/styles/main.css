@@ -1,0 +1,53 @@
+/*style for whole doc*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+a:link, a:visited {
+	color: orange;
+	font-weight: bold;
+}
+a:hover, a:focus {
+	color: green;
+	font-weight: bold;
+}
+
+/*style for header*/
+header h2 {
+	font-size: 200%;
+	text-indent: 1em;
+	color: orange;
+	font-style: italic;
+	text-shadow: 2px 2px 1px black;
+}
+header h3 {
+	font-size: 110%;
+	text-indent: 2em;
+}
+
+header img {
+	float: left;
+}
+
+/*style for main*/
+main h1 {
+	font-size: 130%;
+}
+main h1:first-letter {
+	font-size: 250%;
+}
+main h2 {
+	font-size: 120%;
+}
+main h3 {
+	font-size: 110%;
+}
+main ul li {
+	line-height: 1.5em;
+}
+
+/*style for footer*/
+footer {
+	font-size: 70%;
+	text-align: center;
+}
